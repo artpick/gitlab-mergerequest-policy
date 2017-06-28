@@ -1,3 +1,13 @@
+## Description
+This script merge one branche to another using Gitlab Rest API.
+* Create a merge request,
+* Wait the merge request to be validated by a merge web hook on Gitlab (Gitlat configuration),
+* Accept the merge request if the job succeeds,
+* Tag the branch with a certain version number,
+
+## Use case
+We have a *dev* branch and a *release* branch, we want at the end of the sprint merge *dev* into *release*.
+
 ## Merge request script usage
 
 The script has three arguments:
